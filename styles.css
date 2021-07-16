@@ -1,0 +1,45 @@
+body{
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+}
+.calculator{
+    height: 300px;
+    width: 330px;
+    display: grid;
+    grid-template-columns:  repeat(4,1fr );
+    grid-template-rows:  repeat(4,1fr);
+    grid-gap: 10px;
+    border-style:solid ;
+    border-radius: 20px;
+    background-color:hsl(223, 31%, 20%);
+    position: relative;
+    left: 460px;
+    top: 15px;
+}
+.textarea{
+   width: 26%;
+   height: 50px;
+   margin: 10px;
+   position: relative;
+   left: 450px;
+   border-radius: 10px;
+   outline: none;
+   background-color: hsl(222, 26%, 31%);
+  
+}
+h1{
+    text-align: center;
+}
+.calculator >input{
+ width: 50%;
+ margin-left: 20px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+ 
+ 
+}
+.equal{
+    position: relative;
+    left: 9em;
+}
